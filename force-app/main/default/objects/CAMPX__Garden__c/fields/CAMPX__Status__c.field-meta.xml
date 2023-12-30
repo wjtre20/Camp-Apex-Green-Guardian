@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAMPX__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Awaiting Resources</fullName>
+                <default>false</default>
+                <label>Awaiting Resources</label>
+            </value>
+            <value>
+                <fullName>Operational</fullName>
+                <default>false</default>
+                <label>Operational</label>
+            </value>
+            <value>
+                <fullName>Temporary Closure</fullName>
+                <default>false</default>
+                <label>Temporary Closure</label>
+            </value>
+            <value>
+                <fullName>Over Capacity</fullName>
+                <default>false</default>
+                <label>Over Capacity</label>
+            </value>
+            <value>
+                <fullName>Permanent Closure</fullName>
+                <default>false</default>
+                <label>Permanent Closure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

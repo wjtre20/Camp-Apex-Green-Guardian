@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAMPX__Soil_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Soil Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Indoor Potting Soil</fullName>
+                <default>false</default>
+                <label>Indoor Potting Soil</label>
+            </value>
+            <value>
+                <fullName>Outdoor Potting Soil</fullName>
+                <default>false</default>
+                <label>Outdoor Potting Soil</label>
+            </value>
+            <value>
+                <fullName>All Purpose Potting Soil</fullName>
+                <default>false</default>
+                <label>All Purpose Potting Soil</label>
+            </value>
+            <value>
+                <fullName>Sand</fullName>
+                <default>false</default>
+                <label>Sand</label>
+            </value>
+            <value>
+                <fullName>Clay</fullName>
+                <default>false</default>
+                <label>Clay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
